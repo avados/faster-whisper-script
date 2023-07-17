@@ -92,4 +92,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-input("Appuyer une touche pour fermer le script. Les résultats se trouvent dans le réperoire:"+output_dir)
+input("Appuyer une touche pour fermer le script. Les résultats se trouvent dans le réperoire: "+str(os.path.abspath(output_dir)))
